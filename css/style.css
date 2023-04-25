@@ -7,5 +7,82 @@
 }
 
 body {
+  align-items: center;
+  background-color: #2580ff;
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.message {
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 25px;
+  padding: 5px 25px;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+}
+
+.calcul {
+  display: flex;
+}
+
+h3 {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+h4 {
+  color: #fff;
+  margin: 10px 0;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  outline: 0;
+}
+
+input[type="submit"] {
+  background-color: #0000ff;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 65px;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  letter-spacing: 2px;
+}
+
+.score {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
+a {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: none;
+  margin: 25px 0;
+  padding: 10px 25px;
+  text-decoration: none;
 }
